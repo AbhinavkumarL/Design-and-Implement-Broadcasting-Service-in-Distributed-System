@@ -1,0 +1,106 @@
+# Neighbors::dc22::3124:3
+	 nHost: dc01 nPort: 3332
+	 nHost: dc21 nPort: 5231
+	 nHost: dc33 nPort: 2311
+94:Build tree message from dc01,3332,0
+Node added to Treedc01:3332
+198:Send Confirm from 3124 to 3332
+214:Send BuildTree childMessages 3124 to 3332
+214:Send BuildTree childMessages 3124 to 5231
+214:Send BuildTree childMessages 3124 to 2311
+94:Build tree message from dc33,2311,0
+205:Send InTree from 3124 to 2311
+112: Intree message from dc33,2311,0
+122:1
+94:Build tree message from dc01,3332,0
+205:Send InTree from 3124 to 3332
+112: Intree message from dc01,3332,0
+122:1
+94:Build tree message from dc21,5231,0
+205:Send InTree from 3124 to 5231
+112: Intree message from dc21,5231,0
+122:1
+Element in Tree  of: dc22 :: dc01,3332
+Initiating BroadCast Service on this Node
+312: Total braodcasts left:5
+118:rec BC msg from ,dc01,3332,56, Stack Size:1
+Adding value to node :3124,56
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 56
+Adding value to node :3124,20
+272:sending BC:dc01:3332::with dc22,3124,20
+118:rec BC msg from ,dc01,3332,51, Stack Size:3
+Adding value to node :3124,51
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 127
+118:rec BC msg from ,dc01,3332,73, Stack Size:3
+Adding value to node :3124,73
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 200
+118:rec BC msg from ,dc01,3332,79, Stack Size:4
+Adding value to node :3124,79
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 279
+151:rec CC msg from ,dc01,3332,20 , Stack Size:0
+ 146:BC count:1::CC count1
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 279
+312: Total braodcasts left:4
+151:rec CC msg from ,dc01,3332,20 , Stack Size:0
+ 146:BC count:1::CC count2
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 279
+118:rec BC msg from ,dc01,3332,23, Stack Size:1
+Adding value to node :3124,23
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 302
+Adding value to node :3124,5
+272:sending BC:dc01:3332::with dc22,3124,5
+118:rec BC msg from ,dc01,3332,25, Stack Size:3
+Adding value to node :3124,25
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 332
+118:rec BC msg from ,dc01,3332,6, Stack Size:3
+Adding value to node :3124,6
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 338
+151:rec CC msg from ,dc01,3332,5 , Stack Size:0
+ 146:BC count:2::CC count3
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 338
+118:rec BC msg from ,dc01,3332,30, Stack Size:4
+Adding value to node :3124,30
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 368
+151:rec CC msg from ,dc01,3332,5 , Stack Size:0
+ 146:BC count:2::CC count4
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 368
+118:rec BC msg from ,dc01,3332,15, Stack Size:3
+Adding value to node :3124,15
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 383
+118:rec BC msg from ,dc01,3332,50, Stack Size:1
+Adding value to node :3124,50
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 433
+118:rec BC msg from ,dc01,3332,70, Stack Size:1
+Adding value to node :3124,70
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 503
+118:rec BC msg from ,dc01,3332,75, Stack Size:1
+Adding value to node :3124,75
+126:Node has children <1
+185:Sending CC from dc22,3124 to dc01,3332
+186: Total sum of BroadCast operation till now = 578

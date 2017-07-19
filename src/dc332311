@@ -1,0 +1,194 @@
+# Neighbors::dc33::2311:3
+	 nHost: dc01 nPort: 3332
+	 nHost: dc21 nPort: 5231
+	 nHost: dc22 nPort: 3124
+94:Build tree message from dc01,3332,0
+Node added to Treedc01:3332
+198:Send Confirm from 2311 to 3332
+94:Build tree message from dc22,3124,0
+205:Send InTree from 2311 to 3124
+214:Send BuildTree childMessages 2311 to 3332
+214:Send BuildTree childMessages 2311 to 5231
+214:Send BuildTree childMessages 2311 to 3124
+112: Intree message from dc22,3124,0
+122:1
+94:Build tree message from dc01,3332,0
+205:Send InTree from 2311 to 3332
+112: Intree message from dc01,3332,0
+122:1
+104:Confirm messgae from dc21,5231,0
+Node added to Treedc21:5231
+122:2
+Element in Tree  of: dc33 :: dc01,3332
+Element in Tree  of: dc33 :: dc21,5231
+Initiating BroadCast Service on this Node
+94:Build tree message from dc21,5231,0
+205:Send InTree from 2311 to 5231
+312: Total braodcasts left:5
+Adding value to node :2311,51
+272:sending BC:dc01:3332::with dc33,2311,51
+272:sending BC:dc21:5231::with dc33,2311,51
+118:rec BC msg from ,dc01,3332,56, Stack Size:1
+Adding value to node :2311,56
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,56
+170:Forwarding message to dc21,5231
+118:rec BC msg from ,dc01,3332,20, Stack Size:3
+Adding value to node :2311,20
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,20
+170:Forwarding message to dc21,5231
+151:rec CC msg from ,dc21,5231,51 , Stack Size:0
+ 146:BC count:2::CC count1
+ 147:BC completion on child treedc21,5231
+147: Total sum of BroadCast operation till now = 127
+118:rec BC msg from ,dc21,5231,79, Stack Size:1
+Adding value to node :2311,79
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc21,5231,79
+170:Forwarding message to dc01,3332
+151:rec CC msg from ,dc21,5231,56 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc01,3332,56
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 206
+118:rec BC msg from ,dc01,3332,73, Stack Size:3
+Adding value to node :2311,73
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,73
+170:Forwarding message to dc21,5231
+151:rec CC msg from ,dc21,5231,20 , Stack Size:3
+redirecting the CC message
+139:new redirected tokendc01,3332,20
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 279
+151:rec CC msg from ,dc21,5231,73 , Stack Size:3
+redirecting the CC message
+139:new redirected tokendc01,3332,73
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 279
+151:rec CC msg from ,dc01,3332,51 , Stack Size:0
+ 146:BC count:2::CC count2
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 279
+312: Total braodcasts left:4
+151:rec CC msg from ,dc01,3332,51 , Stack Size:0
+ 146:BC count:2::CC count3
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 279
+151:rec CC msg from ,dc01,3332,79 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc21,5231,79
+185:Sending CC from dc33,2311 to dc21,5231
+186: Total sum of BroadCast operation till now = 279
+151:rec CC msg from ,dc01,3332,79 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc21,5231,79
+185:Sending CC from dc33,2311 to dc21,5231
+186: Total sum of BroadCast operation till now = 279
+118:rec BC msg from ,dc01,3332,23, Stack Size:1
+Adding value to node :2311,23
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,23
+170:Forwarding message to dc21,5231
+Adding value to node :2311,6
+272:sending BC:dc01:3332::with dc33,2311,6
+272:sending BC:dc21:5231::with dc33,2311,6
+118:rec BC msg from ,dc01,3332,5, Stack Size:3
+Adding value to node :2311,5
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,5
+170:Forwarding message to dc21,5231
+151:rec CC msg from ,dc21,5231,6 , Stack Size:0
+ 146:BC count:4::CC count4
+ 147:BC completion on child treedc21,5231
+147: Total sum of BroadCast operation till now = 313
+312: Total braodcasts left:3
+151:rec CC msg from ,dc21,5231,23 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc01,3332,23
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 313
+118:rec BC msg from ,dc01,3332,25, Stack Size:3
+Adding value to node :2311,25
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,25
+170:Forwarding message to dc21,5231
+118:rec BC msg from ,dc21,5231,30, Stack Size:1
+Adding value to node :2311,30
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc21,5231,30
+170:Forwarding message to dc01,3332
+151:rec CC msg from ,dc21,5231,5 , Stack Size:3
+redirecting the CC message
+139:new redirected tokendc01,3332,5
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 368
+151:rec CC msg from ,dc21,5231,25 , Stack Size:3
+redirecting the CC message
+139:new redirected tokendc01,3332,25
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 368
+151:rec CC msg from ,dc01,3332,6 , Stack Size:0
+ 146:BC count:4::CC count5
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 368
+151:rec CC msg from ,dc01,3332,6 , Stack Size:0
+ 146:BC count:4::CC count6
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 368
+151:rec CC msg from ,dc01,3332,30 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc21,5231,30
+185:Sending CC from dc33,2311 to dc21,5231
+186: Total sum of BroadCast operation till now = 368
+151:rec CC msg from ,dc01,3332,30 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc21,5231,30
+185:Sending CC from dc33,2311 to dc21,5231
+186: Total sum of BroadCast operation till now = 368
+Adding value to node :2311,15
+272:sending BC:dc01:3332::with dc33,2311,15
+272:sending BC:dc21:5231::with dc33,2311,15
+151:rec CC msg from ,dc21,5231,15 , Stack Size:0
+ 146:BC count:6::CC count7
+ 147:BC completion on child treedc21,5231
+147: Total sum of BroadCast operation till now = 383
+151:rec CC msg from ,dc01,3332,15 , Stack Size:0
+ 146:BC count:6::CC count8
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 383
+151:rec CC msg from ,dc01,3332,15 , Stack Size:0
+ 146:BC count:6::CC count9
+ 147:BC completion on child treedc01,3332
+147: Total sum of BroadCast operation till now = 383
+118:rec BC msg from ,dc01,3332,50, Stack Size:1
+Adding value to node :2311,50
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,50
+170:Forwarding message to dc21,5231
+151:rec CC msg from ,dc21,5231,50 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc01,3332,50
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 433
+118:rec BC msg from ,dc01,3332,70, Stack Size:1
+Adding value to node :2311,70
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,70
+170:Forwarding message to dc21,5231
+151:rec CC msg from ,dc21,5231,70 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc01,3332,70
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 503
+118:rec BC msg from ,dc01,3332,75, Stack Size:1
+Adding value to node :2311,75
+123:Node has children >1
+165:Sending BC to children of dc33:2311:with dc01,3332,75
+170:Forwarding message to dc21,5231
+151:rec CC msg from ,dc21,5231,75 , Stack Size:1
+redirecting the CC message
+139:new redirected tokendc01,3332,75
+185:Sending CC from dc33,2311 to dc01,3332
+186: Total sum of BroadCast operation till now = 578
